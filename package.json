@@ -1,0 +1,32 @@
+{
+	"name": "octupusar",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"deploy": "gh-pages -d build -t",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^3.0.8",
+		"@sveltejs/kit": "^2.20.7",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"gh-pages": "^6.3.0",
+		"svelte": "^5.28.2",
+		"svelte-check": "^4.1.6",
+		"vite": "^5.4.11"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.1.4",
+		"d3-array": "^3.2.4",
+		"d3-hierarchy": "^3.1.2",
+		"d3-scale": "^4.0.2",
+		"d3-selection": "^3.0.0",
+		"d3-shape": "^3.2.0",
+		"tailwindcss": "^4.1.4"
+	}
+}
