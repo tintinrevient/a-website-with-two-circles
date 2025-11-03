@@ -1,7 +1,1 @@
-# octupusar
-
-## todo
-
-- [ ] menu
-- [ ] logo
-- [ ] projects
+# a website with two circles
