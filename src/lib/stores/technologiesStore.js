@@ -1,10 +1,11 @@
 import { writable } from 'svelte/store';
+import { base } from '$app/paths';
 
 function createTechnologiesStore() {
 	const { subscribe, set } = writable({});
 
 	async function load() {
-		const response = await fetch('/data/technologies.json');
+		const response = await fetch(`${base}/data/technologies.json`);
 		const data = await response.json();
 
 		set(data);
