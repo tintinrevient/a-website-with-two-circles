@@ -1,0 +1,123 @@
+{
+    "name": "Technologies",
+    "children": [
+        {
+            "name": "AI",
+            "color": "#ff6467",
+            "children": [
+                {
+                    "name": "PyTorch",
+                    "years": 2
+                },
+                {
+                    "name": "Transformers",
+                    "years": 2
+                },
+                {
+                    "name": "MLflow",
+                    "years": 2
+                }
+            ]
+        },
+        {
+            "name": "Data",
+            "color": "#ffb86a",
+            "children": [
+                {
+                    "name": "PySpark",
+                    "years": 3
+                },
+                {
+                    "name": "Polars",
+                    "years": 4
+                },
+                {
+                    "name": "Airflow",
+                    "years": 3
+                },
+                {
+                    "name": "Trino",
+                    "years": 1
+                },
+                {
+                    "name": "Apache Kafka",
+                    "years": 1
+                },
+                {
+                    "name": "PostgreSQL",
+                    "years": 5
+                },
+                {
+                    "name": "Neo4j",
+                    "years": 2
+                },
+                {
+                    "name": "Apache Cassandra",
+                    "years": 2
+                },
+                {
+                    "name": "CockroachDB",
+                    "years": 1
+                },
+                {
+                    "name": "DuckDB",
+                    "years": 0.5
+                },
+                {
+                    "name": "SpacetimeDB",
+                    "years": 0.2
+                },
+                {
+                    "name": "Elasticsearch",
+                    "years": 2
+                },
+                {
+                    "name": "MinIO",
+                    "years": 0.3
+                },
+                {
+                    "name": "D3",
+                    "years": 0.3
+                },
+                {
+                    "name": "Apache Superset",
+                    "years": 1
+                }
+            ]
+        },
+        {
+            "name": "Engineering",
+            "color": "#fff085",
+            "children": [
+                {
+                    "name": "Spring",
+                    "years": 8
+                },
+                {
+                    "name": "Python",
+                    "years": 6
+                },
+                {
+                    "name": "Java",
+                    "years": 8
+                },
+                {
+                    "name": "Rust",
+                    "years": 0.5
+                },
+                {
+                    "name": "Docker",
+                    "years": 8
+                },
+                {
+                    "name": "Kubernetes",
+                    "years": 1
+                },
+                {
+                    "name": "Maven",
+                    "years": 7
+                }
+            ]
+        }
+    ]
+}
